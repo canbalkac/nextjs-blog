@@ -1,0 +1,20 @@
+src /
+├─ app/                 # Route-based yapı (Next.js 13+ App Router)
+│   ├─ layout.tsx       # Genel sayfa düzeni
+│   ├─ page.tsx         # Ana sayfa
+│   ├─ api/             # APı route'ları
+│   ├─ [dynamic]/       # Dinamik route'lar
+│   └─ dashboard        # Özel alt sayfa yapısı
+├─ components/          # Yeniden kullanılabilir bileşenler
+│   ├─ ui/              # UI odaklı bileşenler
+│   ├─ forms/           # Form bileşenleri
+│   └─ layout/          # Genel düzen bileşenleri
+├─  hooks/              # Özel React Hookları
+├─  lib/                # Yardımcı fonksiyonlar, API entegrasyonu
+├─  services/           # Harici servislerle bağlantı kodları
+├─  styles/             # Tailwind ve global css kodları
+├─  types/              # Typescript tip tanımları
+├─  utils/              # Genel yardımcı fonksiyonlar
+├─  public/             # Statik dosyalar (favicon, resimler)
+├─  middleware.ts       # Orta katman işlemleri (auth vb.)
+└─  next.config.js      # Next.js yapılandırma dosyası
