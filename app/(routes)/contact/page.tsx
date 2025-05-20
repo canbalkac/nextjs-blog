@@ -7,9 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 const ContactPage = () => {
   // redux'ta useSelector veri çekmek için kullanıyoruz
   // useDispatch action olacağın zaman
-  const { footerText, headerText } = useSelector(
-    (state: RootState) => state.ui
-  );
+  const { headerText } = useSelector((state: RootState) => state.ui);
   const dispatch = useDispatch();
 
   const handleUpdateText = (text: string) => {
